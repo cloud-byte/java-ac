@@ -6,12 +6,12 @@ public class ClaseJava {
 
 		public static void main(String[] args) {
 			
-			Scanner myObj = new Scanner(System.in);  // Create a Scanner object
+			Scanner myObj = new Scanner(System.in);
 		    System.out.println("Introduce A: ");
-		    int a = myObj.nextInt();  // Read user input
+		    int a = myObj.nextInt();
 		    
 		    System.out.println("Introduce B: ");
-		    int b = myObj.nextInt();  // Read user input
+		    int b = myObj.nextInt();
 		    
 
 			System.out.println("Operaciones -------");
@@ -32,7 +32,7 @@ public class ClaseJava {
 			return a - b;
 		}
 		public static int division(int a, int b) {
-			return a / b;
+			return a/b;
 		}
 		public static int modulo(int a, int b) {
 			return a % b;
@@ -44,7 +44,7 @@ public class ClaseJava {
 			return a ^ b;
 		}
 		public static int porcentaje(int a, int b) {
-			return a /100 * b;
+			return (a /100) * b;
 		}
 	
 }
