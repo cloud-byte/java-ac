@@ -1,4 +1,3 @@
-/bin/
 /.metadata/
 *target*
 *.jar
@@ -6,13 +5,13 @@
 *.ear
 *.class
 
-#eclipse specific git ignore
-*pydevproject
+# Specific eclipse git ignores
+*.pydevproject
 .project
 .metadata
 bin/**
 tmp/**
-tmp/**/*
+tmp/**/**
 *.tmp
 *.bak
 *.swp
@@ -22,8 +21,8 @@ local.properties
 .settings/
 .loadpath
 
-#External tool builders
+# External tool builders
 .externalToolBuilders/
 
-#locally stored "Eclipse launch configurations"
+# Locally stored "Eclipse Launch configurations"
 *.launch
