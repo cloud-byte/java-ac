@@ -5,9 +5,9 @@ public class Operaciones {
 	public static void main(String[] args) {
 		System.out.println("La Suma es igual a: " + suma(1, 2));
 		System.out.println("La resta es igual a: " + resta(1, 2));
-		System.out.println("La multiplicación es igual a: " + multiplica(1, 2));
+		System.out.println("La multiplicacin es igual a: " + multiplica(1, 2));
 		System.out.println("La division es igual a: " + division(1, 2));
-		System.out.println("El módulo es igual a: " + modulo(13, 4));
+		System.out.println("El mdulo es igual a: " + modulo(13, 4));
 		System.out.println("La potencia es igual a: " + potencia(2, 2));
 		System.out.println("El porcentaje es igual a: " + porcentaje(20, 1000));
 		System.out.println("El factorial de 5 es: " + factorial(5));
@@ -43,7 +43,7 @@ public class Operaciones {
 		return (a * b) / 100;
 	}
 	
-public static int factorial(int a) {
+    public static int factorial(int a) {
 		
 		int factorial = 1;
 		
