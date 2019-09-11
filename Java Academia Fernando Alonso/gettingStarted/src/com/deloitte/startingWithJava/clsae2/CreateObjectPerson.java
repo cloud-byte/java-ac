@@ -16,18 +16,16 @@ public class CreateObjectPerson {
 			System.out.println("NO SOY IGUAL");
 		}
 		char i;
-		
 		for(i = 65; i<='z';i++) {	
 			if(i<='Z' || i>='a') {
 				System.out.println(i);
 			}
-			
 		}
 		System.out.println("---------------------------");
 		Person sumaObject = new Person();
 		System.out.println("Boolean: "+sumaObject.suma(false,true));
 		System.out.println("Byte: "+sumaObject.suma(0x31,0x32));	
-		System.out.println("Chart: "+sumaObject.suma('a', 'C'));
+		System.out.println("Chart: "+sumaObject.suma('e', 'e'));
 		short num1=23; 
 		short num2=23;
 		System.out.println("Short: "+sumaObject.suma(num1,num2));
