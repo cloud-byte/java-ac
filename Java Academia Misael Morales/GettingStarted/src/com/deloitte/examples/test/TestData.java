@@ -1,0 +1,36 @@
+package com.deloitte.examples.test;
+
+public class TestData {
+
+	static boolean[] aBool = {true, true, false, false};
+	static boolean[] bBool = {true, false, true, false};
+	static boolean[] rBool = {true, false, false, false};
+	
+	static byte[] aByte = {-128,127,120,-100};
+	static byte[] bByte = {-2,1,10,50};
+	static byte[] rByte = {(byte) -130,(byte) 128,(byte) 130,-50};
+	
+	static char[] aChar = {(char) -1, 50, 80};
+	static char[] bChar = {100, 17, (char) -15};
+	static char[] rChar = {99, 67, 65};
+	
+	static short[] aShort = {32767, 32767, -32759};
+	static short[] bShort = {1, 10, 500};
+	static short[] rShort = {(short) 32768, -32759, -32259};
+	
+	static int[] aInt = {2147483647, 2147483047, -2147483648};
+	static int[] bInt = {1, 700, -50};
+	static int[] rInt = {-2147483648, -2147483549, 2147483598};
+	
+	static long[] aLong = {9223372036854775807L,9223372036854775807L, -9223372036854775808L};
+	static long[] bLong = {1, 10, -553243242};
+	static long[] rLong = {-9223372036854775808L,-9223372036854775799L, 9223372036301532566L};
+	
+	static float[] aFloat = {3.4028235e38f, 15.00000000000000005f, 10.00000000000000000000000000000000000000000000000000000006798f};
+	static float[] bFloat = {871263871623781f, 15.00000000000000005f, 3.00000000000000000000000000000000000000000000000000000003245f};
+	static float[] rFloat = {3.4028235e38f, 30.0000000000000001f,13.00000000000000000000000000000000000000000000000000000010043f};
+	
+	static double[] aDouble = {1.7976931348623157e308, 15.00000000000000005, 10.00000000000000000000000000000000000000000000000000000006798};
+	static double[] bDouble = {0, 15.00000000000000005, 3.00000000000000000000000000000000000000000000000000000003245};
+	static double[] rDouble = {1.7976931348623157e308, 30.0000000000000001, 13.00000000000000000000000000000000000000000000000000000010043};
+}
