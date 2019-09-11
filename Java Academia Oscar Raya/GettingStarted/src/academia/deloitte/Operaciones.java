@@ -47,9 +47,9 @@ public class Operaciones {
 		
 		int factorial = 1;
 		
-		if(a == 1) {
+		/*if(a == 1) {
 			return 1;
-		}
+		}*/ //No necesario
 		
 		for (int i = 1; i <= a; i++) {
 			factorial = factorial * i;
