@@ -178,7 +178,7 @@ public class Person
 	
 	public double suma(double a, double b) 
 	{
-		return a+b;
+		return (double) a+b;
 	}
 	
 	public int suma (int a, int b) 
@@ -199,6 +199,16 @@ public class Person
 	public float suma (float a, float b) 
 	{
 		return a+b;
+	}
+	
+	public int suma (char a, char b) 
+	{
+		return (char) a+b;
+	}
+	
+	public int suma (short a, short b) 
+	{
+		return (short) a+b;
 	}
 	
 	
