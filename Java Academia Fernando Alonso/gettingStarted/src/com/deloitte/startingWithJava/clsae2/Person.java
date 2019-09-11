@@ -79,10 +79,10 @@ public class Person {
 		this.apellidoM = apellidoM;
 	}
 	
-	//CREAR METODOS PARA SUMAR TODOS LOS TIPOS DE SUMA
+	//CREAR METODOS PARA SUMAR TODOS LOS TIPOS DE DATOS PRIMITIVOS
 	public boolean suma(boolean a, boolean b)
 	{
-		return (a&&b);
+		return (boolean)(a||b);
 	}
 	public byte suma(byte a, byte b)
 	{
@@ -99,11 +99,11 @@ public class Person {
 	}
 	public int suma(int a, int b)
 	{
-		return (a+b);
+		return (int)(a+b);
 	}
 	public long suma(long a, long b)
 	{
-		return (a+b);
+		return (long)(a+b);
 	}
 	public float suma(float a, float b)
 	{
@@ -111,7 +111,7 @@ public class Person {
 	}
 	public double suma(double a, double b)
 	{
-		return (a+b);
+		return (double)(a+b);
 	}
 	
 	
