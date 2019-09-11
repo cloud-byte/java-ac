@@ -14,7 +14,7 @@ public class Person {
 		
 	}
 	
-	public Person(String nombre, String apaterno, String amaterno) {
+	public Person(String nombre, String apaterno, String amaterno, double altura, double peso,int edad, char genero, String nacionalidad, String ecivil) {
 		//Para usar las variables de forma local en el constructor
 		this.nombre=nombre;
 		this.apaterno=apaterno;
