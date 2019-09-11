@@ -1,4 +1,4 @@
-package academia.deloitte;
+package com.deloitte.examples.classes;
 
 public class HolaMundo {
 
