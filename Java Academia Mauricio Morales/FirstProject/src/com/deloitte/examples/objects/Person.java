@@ -12,10 +12,18 @@ public class Person {
 	private String apellido_materno;
 	private String estado_civil;
 	
-	public Person(String nombre, String apellido_paterno, String apellido_materno) {
+	public Person(String nombre, String apellido_paterno, String apellido_materno,
+			String nacionalidad, String estado_civil,double altura, double peso, int edad,
+			char genero) {
 		this.nombre = nombre;
 		this.apellido_paterno = apellido_paterno;
 		this.apellido_materno = apellido_materno;
+		this.nacionalidad = nacionalidad;
+		this.estado_civil = estado_civil;
+		this.altura = altura;
+		this.peso = peso;
+		this.edad = edad;
+		this.genero = genero;
 	}
 
 	public Person() {
@@ -117,6 +125,18 @@ public class Person {
 	public float suma(float a, float b) {
 		System.out.println("float");
 		return (float) (a+b);
+	}
+	public boolean suma(boolean a, boolean b) {
+		System.out.println("boolean");
+		return (boolean) (a&&b);
+	}
+	public String suma(String a, String b) {
+		System.out.println("String");
+		return (String) (a+b);
+	}
+	public short suma(short a, short b) {
+		System.out.println("short");
+		return (short) (a+b);
 	}
 
 }

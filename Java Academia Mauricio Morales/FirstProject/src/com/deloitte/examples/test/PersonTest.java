@@ -8,13 +8,15 @@ import com.deloitte.examples.objects.*;
 
 class PersonTest {
 
+	Person p = new Person("Mauricio", "Morales", "Morales");
+	
 	@Test
 	public void TestPerson() {
 		
 		byte X = 4;
 		byte Y = 8;
-		char C = 2;
-		char D = 3;
+		char C = 'a';
+		char D = 1;
 		long A = 1;
 		long B = 1;
 		double M = 0.11;
@@ -23,18 +25,16 @@ class PersonTest {
 		float F = (float) 0.45;
 		
 		
-		Person p = new Person("Mauricio", "Morales", "Morales");
-		
 		assertEquals(4, p.suma(2, 2));
-		assertEquals(12, p.suma(X, Y));
-		assertEquals(5, p.suma(C, D));
-		assertEquals(2, p.suma(A, B));
+		assertEquals((byte)12, p.suma(X, Y));
+		assertEquals('b', p.suma(C, D));
+		assertEquals((long)2, p.suma(A, B));
 		assertEquals(0.22, p.suma(M, N));
-		assertEquals(1, p.suma(E, F));
+		assertEquals(1.0, p.suma(E, F));
 		
 		assertEquals("Mauricio", p.getNombre());
 		assertEquals("Morales",p.getApellido_paterno());
 		assertEquals("Morales",p.getApellido_materno());
 	}
-
+	
 }
