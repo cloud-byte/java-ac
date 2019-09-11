@@ -11,13 +11,6 @@ public class Person {
 	private String apellidoPaterno;
 	private String apellidoMaterno;
 	private String estadoCivil;
-//	private char a,b;
-//	private short c,d;
-//	private int e,f;
-//	private long g,h;
-//	private float i,j;
-//	private double k,l;
-//	private byte m,n;
 	
 	public Person() {
 		
