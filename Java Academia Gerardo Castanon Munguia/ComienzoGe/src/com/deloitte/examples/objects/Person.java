@@ -155,6 +155,37 @@ public class Person {
 	public byte  Suma7(int a, int b) {
 		return (byte) (this.a+b);
 	}
+	public static boolean suma(boolean a, boolean b)
+	{
+		return (a&&b);
+	}
+	public static int suma(int a, int b)
+	{
+		return (a+b);
+	}
+	public static double suma(double a, double b)
+	{
+		return (a+b);
+	}
+	public static float suma(float a, float b)
+	{
+		return (float)(a+b);
+	}
+	public static long suma(long a, long b)
+	{
+		return (a+b);
+	}
+	public static char suma(char a, char b)
+	{
+		int sumar= (int)(a+b);
+		return (char)sumar;
+	}
+	public static short suma(short a, short b)
+	{
+		return (short)(a+b);
+	}
+
+
 
 
 
