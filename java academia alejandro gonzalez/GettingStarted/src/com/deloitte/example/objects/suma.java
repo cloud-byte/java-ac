@@ -11,26 +11,30 @@ public class suma {
 	private static long rlong;
 	private float rfloat;
 	
-	public suma(int a, int b) {
-		this.rint= a+b;
+	public int sumas(int a, int b) {
+		return this.rint= a+b;
 		}
-	
-	public suma(double a, double b) {
-		this.rdouble=a+b;
+	public boolean sumas(boolean a, boolean b)
+	{
+		return (a&&b);
 	}
-	public static char suma2(char a, char b) {
+
+	public double sumas(double a, double b) {
+		return this.rdouble=a+b;
+	}
+	public char sumas(char a, char b) {
+		int suma= (int)(a+b);
+		return (char)suma;
+	}
+	public short sumas(short a, short b) {
+		return (short)(a+b);
+	}
+	public long sumas(long a, long b) {
+		return a+b;
 		
-		return rchar='a'+'b';
 	}
-	public suma(short a, short b) {
-		this.rshort='a'+'b';
-	}
-	public suma(long a, long b) {
-		suma.rlong =a+b;
-		
-	}
-	public suma(float a, float b) {
-		this.rfloat=a+b;
+	public float sumas(float a, float b) {
+		return (float)(a+b);
 	}
 
 	/**
