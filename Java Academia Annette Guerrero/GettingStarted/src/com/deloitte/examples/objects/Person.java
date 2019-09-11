@@ -128,6 +128,9 @@ public class Person {
 		 return (short) (a+b); 
 		 }
 	 
+	 public boolean suma(boolean a, boolean b) {
+		 return a&&b;
+	 }
 	 
 	 	
 }
