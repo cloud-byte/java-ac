@@ -122,5 +122,9 @@ public class Person {
 	public double sumaDouble(double a, double b) {
 		return (double) (a+b);
 	}
+	
+	public boolean sumaBoolean(boolean a, boolean b) {
+		return a&&b;
+	}
 
 }

@@ -25,12 +25,12 @@ class PersonTest {
 		
 		Person p = new Person("Mauricio", "Morales", "Morales");
 		
-		assertEquals(4, p.suma1(2, 2),"Yeah");
-		assertEquals(12, p.suma2(X, Y));
-		assertEquals(5, p.suma3(C, D));
-		assertEquals(2, p.suma4(A, B));
-		assertEquals(0.22, p.suma5(M, N));
-		assertEquals(2, p.suma6(E, F));
+		assertEquals(4, p.suma(2, 2));
+		assertEquals(12, p.suma(X, Y));
+		assertEquals(5, p.suma(C, D));
+		assertEquals(2, p.suma(A, B));
+		assertEquals(0.22, p.suma(M, N));
+		assertEquals(1, p.suma(E, F));
 		
 		assertEquals("Mauricio", p.getNombre());
 		assertEquals("Morales",p.getApellido_paterno());

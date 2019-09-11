@@ -16,11 +16,11 @@ public class ClaseDePrueba
 		b =chocha.nextInt();
 		
         System.out.println(Suma(a,b));
-        System.out.println(Resta(5,8));
-        System.out.println(Multiplicacion(5,4));
-        System.out.println(Division(20,2));
-        System.out.println(Potencia(2,6));
-        System.out.println(Porcentaje(100,20));
+        System.out.println(Resta(a,b));
+        System.out.println(Multiplicacion(a,b));
+        System.out.println(Division(a,b));
+        System.out.println(Potencia(a,b));
+        System.out.println(Porcentaje(a,b));
 		System.out.println("Hellow World JAJA");
 		
 	}

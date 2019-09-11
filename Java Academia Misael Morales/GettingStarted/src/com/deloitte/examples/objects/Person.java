@@ -7,6 +7,10 @@ public class Person {
 	private char genero;
 	private String nacionalidad, nombre, apellido_paterno, apellido_materno, estado_civil;
 	
+	public boolean sumaBool(boolean a, boolean b) {
+		return (a && b);
+	}
+	
 	public byte sumaByte(byte a, byte b) {
 		return (byte) (a+b);
 	}

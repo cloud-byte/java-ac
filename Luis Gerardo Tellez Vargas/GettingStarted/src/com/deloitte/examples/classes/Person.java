@@ -123,6 +123,10 @@ public class Person {
 	public byte Suma(byte a, byte b) {
 		return (byte) ((byte) a+b);
 	}
+	
+	public boolean Suma(boolean a, boolean b) {
+		return (a && b);
+	}
 
 	
 }

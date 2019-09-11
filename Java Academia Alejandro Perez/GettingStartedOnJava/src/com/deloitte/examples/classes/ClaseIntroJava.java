@@ -40,8 +40,8 @@ public class ClaseIntroJava {
 		//}
 		float per = (float) (data1/data2); // percentage CHECK FOR ERRORS
 		System.out.println("The percentage of the smaller number inside the bigger one is: "+ per);
-		
-		}
+				}
 	
 }
+
 
