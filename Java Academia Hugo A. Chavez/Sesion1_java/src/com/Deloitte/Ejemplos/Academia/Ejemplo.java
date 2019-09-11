@@ -6,15 +6,14 @@ public class Ejemplo {
 	
 	public static void main(String[] args) {
 		System.out.println("Java class");
-		System.out.println(suma(1,2));
-		System.out.println(resta(10,20));
-		System.out.println(multiplicacion(10,20));
-		System.out.println(division(10,20));
-		System.out.println(modulo(10,20));
-		System.out.println(potencia(10,20));
+		System.out.println(suma(2,1));
+		System.out.println(resta(2,2));
+		System.out.println(multiplicacion(2,2));
+		System.out.println(division(4,2));
+		System.out.println(modulo(10,3));
+		System.out.println(potencia(2,2));
 		System.out.println(porcentaje(10,20));
 		//	System.out.println(operaciones(10,20));
-		
 	}
 	
 	public static int suma(int a, int b) {
