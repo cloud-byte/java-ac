@@ -42,9 +42,12 @@ public class Tipo_variables {
 		while ( m<= 'z'); 	
 	
 	}
-		//metodos para probar en TestCase1
-	public byte suma (byte a, byte b) {
-		int c =  a + b;
+		
+	
+	//metodos para probar en TestCase_1 y TestCase_2
+		
+	public byte suma (byte a1, byte b1) {
+		int c =  a1 + b1;
 		byte d = (byte)c;
 		return d;
 	}
@@ -67,6 +70,12 @@ public class Tipo_variables {
 		return (a + b);
 	}
 	public double suma (double a, double b) {
+		return (a + b);
+	}
+	public boolean suma (boolean a, boolean b) {
+		return true;
+	}
+	public String suma (String a, String b) {
 		return (a + b);
 	}
 }
