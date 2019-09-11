@@ -94,27 +94,27 @@ public class Person {
 		this.estado_civil = estado_civil;
 	}
 	
-	public int suma1(int a, int b) {
+	public int suma(int a, int b) {
 		System.out.println("Int");
 		return a+b;
 	}
-	public byte suma2(byte a, byte b) {
+	public byte suma(byte a, byte b) {
 		System.out.println("Byte");
 		return (byte) (a+b);
 	}
-	public char suma3(char a, char b) {
+	public char suma(char a, char b) {
 		System.out.println("Char");
 		return (char) (a+b);
 	}
-	public long suma4(long a, long b) {
+	public long suma(long a, long b) {
 		System.out.println("long");
 		return (long) (a+b);
 	}
-	public double suma5(double a, double b) {
+	public double suma(double a, double b) {
 		System.out.println("double");
 		return (double) (a+b);
 	}
-	public float suma6(float a, float b) {
+	public float suma(float a, float b) {
 		System.out.println("float");
 		return (float) (a+b);
 	}
