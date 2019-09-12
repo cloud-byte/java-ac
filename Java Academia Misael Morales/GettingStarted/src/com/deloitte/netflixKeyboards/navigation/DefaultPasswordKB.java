@@ -2,6 +2,10 @@ package com.deloitte.netflixKeyboards.navigation;
 
 import com.deloitte.netflixKeyboards.Keyboards;
 
+// agrega las cositas para que se parezca default
+// siendo mas especificos se necesita copiar el If dentro del For anidado
+// para que se cambie de teclado special a default o viceversa
+
 public class DefaultPasswordKB extends Keyboards {
 
 	private static int initialPosX = 4;
@@ -34,8 +38,12 @@ public class DefaultPasswordKB extends Keyboards {
 						x=j;
 						y=i;
 						break;
+					}else {
+						x=0;
+						y=4;
 					}
 				}
+				if(DefaultPasswordKB[y][x].contentEquals(aux)) break;
 			}
 			
 			//System.out.println(DefaultEmailKB[y][x]);
@@ -65,6 +73,13 @@ public class DefaultPasswordKB extends Keyboards {
 				}
 			}
 			res+="Ok \n";
+			
+			if(x==0 && y==4) {
+				SpecialPasswordKB skb = new SpecialPasswordKB();
+				String[] arr = skb.KBNavigation(password, res);
+				password = arr[0];
+				res = arr[1];
+			}
 			
 			 //Reduce el correo en un char 
 			 aux=password.substring(1); 

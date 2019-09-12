@@ -65,8 +65,18 @@ public class Keyboards {
 		{op1, 	op1, 	op1, 	op1, 	op2, 	op2, 	op2, 	op2, 	op2, 	op2}
 	};
 	
-	public Keyboards() {
-		
-	}
+//	public static boolean CheckKeyboards(String email, String Password) {
+//		boolean r=false;
+//		char c;
+//		c=email.charAt(0);
+//		for (int i = 0; i < email.length(); i++) {
+//			for (int j = 0; j < 7; j++) {
+//				for (int k = 0; k < 10; k++) {
+//					
+//				}
+//			}
+//		}
+//		return r;
+//	}
 
 }

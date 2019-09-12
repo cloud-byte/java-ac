@@ -13,6 +13,7 @@ public class Main {
 	
 
 	public static void main(String[] args) {
+		Keyboards.CheckKeyboards(EMAIL, PASSWORD);
 		res=DefaultEmailKB.KBNavigation(EMAIL, res);
 		res=DefaultPasswordKB.KBNavigation(PASSWORD, res);
 		System.out.println(res);

@@ -100,6 +100,8 @@ public class DefaultEmailKB extends Keyboards {
 			if(x==0 && y==5) {
 				SpecialEmailKB skb = new SpecialEmailKB();
 				String[] arr = skb.KBNavigation(email, res);
+				email= arr[0];
+				res = arr[1];
 			}
 			
 			if (email.equals("@hotmail.com") || email.equals("@gmail.com") || email.equals("@yahoo.com") || email.equals(".com")) {	
