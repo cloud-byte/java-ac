@@ -45,6 +45,8 @@ public class CreateObjects
 	System.out.println(suma.suma((long)1,(long)2));	
 	System.out.println(suma.suma((float)4,(float)3));	
 	System.out.println(suma.suma((double)1,(double)2));	
+	
+
 		
 	}
 
