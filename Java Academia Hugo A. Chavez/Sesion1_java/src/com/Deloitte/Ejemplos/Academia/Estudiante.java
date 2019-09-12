@@ -8,9 +8,9 @@ public class Estudiante extends Person {
 	public Estudiante() {
 	}
 
-	public Estudiante(String nombre, String apellidoPaterno, String apellidoMaterno) {
-		super(nombre, apellidoPaterno, apellidoMaterno);
-	}
+//	public Estudiante(String nombre, String apellidoPaterno, String apellidoMaterno) {
+//		super(nombre, apellidoPaterno, apellidoMaterno);
+//	}
 
 	public Estudiante(String nombre, String apellidoPaterno, String apellidoMaterno, int numeroControl, double calificacionFinal) {
 		super(nombre, apellidoPaterno, apellidoMaterno);
