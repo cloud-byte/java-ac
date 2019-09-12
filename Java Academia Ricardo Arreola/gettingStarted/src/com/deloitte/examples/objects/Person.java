@@ -2,15 +2,12 @@ package com.deloitte.examples.objects;
 
 public class Person {
 	
-	private int edad;
- 	private char genero;
- 	private double altura;
- 	private double peso;
- 	private String nacionalidad;
- 	private String nombre;
- 	private String apellido_paterno;
- 	private String apellido_materno;
- 	private String estado_civil;
+	private int age;
+ 	private char gender;
+ 	private double height;
+ 	private double weight;
+ 	private String name;
+ 	private String eyeColor;
   	
  	private double a,b;
  
@@ -51,11 +48,6 @@ public class Person {
 	}
  	
  	
-	public Person(String nombre, String apellido_paterno, String apellido_materno) {
-		this.apellido_paterno = apellido_paterno;
-		this.apellido_materno = apellido_materno;
-		this.nombre = nombre;
-	}
 	
 	
 	
