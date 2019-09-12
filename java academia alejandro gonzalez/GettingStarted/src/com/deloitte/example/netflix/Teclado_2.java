@@ -2,7 +2,9 @@ package com.deloitte.example.netflix;
 
 public class Teclado_2 {
 	
-	public String [][] email_normal= new String[10][7];
+	public String [][] email_normal= new String[10][7];//teclado de email por default
+	public String [][] matriz = new String[10][7];  // teclado de email de caracteres especiales
+	public String [][] pass_normal= new String[10][6]; // teclado de password por default
 
 	/**
 	 * 
@@ -82,7 +84,6 @@ public class Teclado_2 {
 		email_normal[8][6]= "next";
 		email_normal[9][6]= "next";
 		
-		final String [][] matriz = new String[10][7];
 	     
 	     matriz[0][0]= "1";
 	     matriz[1][0]= "2";

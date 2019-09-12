@@ -12,12 +12,12 @@ public class navegacion {
 		
 		if (x<nx) {
 			int pasos = (x-nx)*-1;
-			System.out.println(pasos+" pasos a la derecha.");
+			System.out.println(pasos+" pasos a la derecha. -->");
 		}
 		
 		if (x>nx) {
 			int pasos = (nx-x)*-1;
-			System.out.println(pasos+" pasos a la izquierda.");
+			System.out.println(pasos+" pasos a la izquierda. <--");
 		}
 		
 		if (y<ny) {
@@ -28,7 +28,7 @@ public class navegacion {
 			int pasos = (ny-y)*-1;
 			System.out.println(pasos+" pasos hacia arriba.");
 		}
-		
+		System.out.println("presionar boton select");
 	}
 	
 	
@@ -44,15 +44,14 @@ for (int i=0 ;i<=5; i++) {
 			
 			for (int j=0;j<=9;j++) {
 				
-				if ( teclado.email_normal[j][i].contentEquals(letra)) {
-					
-					
-					//System.out.println(teclado.email_normal[j][i]);
-					
+				if ( teclado.email_normal[j][i].contentEquals(letra)) {	
 					 number1 = j;
 				     number2 = i;
-				    				}}}
-return new int[] {number1, number2};
+				    				}
+				
+				
+			}}
+				return new int[] {number1, number2};
 }
 	
 	public static void main(String[] args) {
