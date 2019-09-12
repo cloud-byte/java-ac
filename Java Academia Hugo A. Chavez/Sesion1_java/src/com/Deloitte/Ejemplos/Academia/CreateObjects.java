@@ -22,5 +22,4 @@ public class CreateObjects {
 			System.out.println("Nel, no soy");
 		}
 	}
-
 }

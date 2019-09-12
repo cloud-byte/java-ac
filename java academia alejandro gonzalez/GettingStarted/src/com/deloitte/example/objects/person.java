@@ -11,6 +11,21 @@ public class person {
 	private String apellido_materno;
 	private String estado_civil;
 	
+	public person(double altura, int edad, double peso, char genero, String nacionalidad, String nombre,
+			String apellido_paterno, String apellido_materno, String estado_civil) {
+		super();
+		this.altura = altura;
+		this.edad = edad;
+		this.peso = peso;
+		this.genero = genero;
+		this.nacionalidad = nacionalidad;
+		this.nombre = nombre;
+		this.apellido_paterno = apellido_paterno;
+		this.apellido_materno = apellido_materno;
+		this.estado_civil = estado_civil;
+	}
+	public person() 
+	{}
 	public person(String nombre, String apellido_paterno,String apellido_materno) 
 		{
 		this.nombre = nombre;
