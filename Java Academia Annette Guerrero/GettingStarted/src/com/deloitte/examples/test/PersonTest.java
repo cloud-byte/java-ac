@@ -35,7 +35,8 @@ class PersonTest {
 	assertEquals(6, p.suma((short)2,(short)4),1);
 	//byte
 	assertEquals(50,p.suma((byte)20,(byte)30),1);
-	
+	//boolean
+	assertEquals(false, p.suma(true, false));
 		
 	
 	

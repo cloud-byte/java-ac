@@ -20,7 +20,7 @@ class PersonTest {
 	@Test
 	public void TestSuma() {
 		
-//		Person res = new Person("Joel", "Paez", "Oropeza");
+//		This part is showing how we can use suma in wrong way.
 		System.out.println("Int: " + Person.suma(2, 3));
 		System.out.println("Double: " + Person.suma(5.2, 3.2));
 		System.out.println("Float: " + Person.suma(3.5, 2.5));
@@ -28,6 +28,7 @@ class PersonTest {
 		System.out.println("Byte: " + Person.suma(1, 3));
 		System.out.println("Short: " + Person.suma(5, 6));
 		
+//		This part is setting the correct parameters to use in each suma method.
 		int num = 5;
 		Double num1 = 5.312345667789;
 		Float num2 = new Float(6.0);

@@ -1,0 +1,27 @@
+Navigate over netflix keyboard
+
+Input: two Strings
+    - First: Email
+    - Second: Password
+Only three valid movements
+    - left_arrow
+    - right_arrow
+    - up_arrow
+    - down_arrow
+    - select (ok)
+Four type of keyboards
+    - Email default keyboard
+    - Email Special Characters keyboard
+    - Password default keyboard
+    - Password Special Characters keyboard
+Initial key is letter 'g'
+Output: The output should be a String with ALL the movements over the keyboard(s) (comma separated) 
+i.e ( "left_arrow, left_arrow, left_arrow, left_arrow, up_arrow, down_arrow, right_arrow, select" )
+
+Recommendations:
+    - Create a class only to define the keyboards (public and static variables)
+    - Create 4 classes, each to navigate over a specific keyboard 
+    - Create a test class (you need to know the movements)
+
+Good luck!
+

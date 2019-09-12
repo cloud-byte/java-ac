@@ -16,7 +16,7 @@ public class Person {	//Definir la clase, atributos que va tener nuestro objeto.
 	
 	public Person() {	//Método constructor, permite dar caracteristicas a los atributos creados dentro de la clase.
 	}
-	public Person(String nombre, String apellido_paterno, String apellido_materno) { // Método constructor con el mismo nombre pero con parametros.
+	public Person(String nombre, String apellido_paterno, String apellido_materno, double altura, double peso) { // Método constructor con el mismo nombre pero con parametros.
 		this.apellido_paterno = apellido_paterno;
 		this.apellido_materno = apellido_materno;
 		this.nombre = nombre;	

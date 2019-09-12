@@ -2,7 +2,7 @@ package com.Deloitte.Ejemplos.test;
 import com.Deloitte.Pruebas.Prueba.*;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+import com.Deloitte.Ejemplos.test.testdata;
 import org.junit.jupiter.api.Test;
 
 class TestPersona 
@@ -22,7 +22,7 @@ class TestPersona
 		
 	}
 	
-	@Test 
+	/*@Test 
 	public void testbyte() 
 	{
 		byte a=3;
@@ -65,5 +65,70 @@ class TestPersona
 		long b=1000000;
 		long r=16600000;
 		assertEquals(r,p.suma(a, b));// Long
+	}*/
+	
+	//Pruebas Con Arreglos
+	@Test
+	public void testBoolean() 
+	{
+		for (int i = 0; i < testdata.a.length; i++) 
+		{
+			assertEquals(testdata.c[i],p.suma(testdata.a[i], testdata.b[i]));
+			
+		}
+	}
+	@Test
+	public void testInt() 
+	{
+		for (int i = 0; i < testdata.d.length; i++) 
+		{
+			assertEquals(testdata.f[i],p.suma(testdata.d[i], testdata.e[i]));
+			
+		}
+	}
+	@Test
+	public void testdouble() 
+	{
+		for (int i = 0; i < testdata.g.length; i++) 
+		{
+			assertEquals(testdata.i[i],p.suma(testdata.g[i], testdata.h[i]),1);
+			
+		}
+	}
+	@Test
+	public void testFloa() 
+	{
+		for (int i = 0; i < testdata.j.length; i++) 
+		{
+			assertEquals(testdata.l[i],p.suma(testdata.j[i], testdata.k[i]));
+			
+		}
+	}
+	@Test
+	public void testChar() 
+	{
+		for (int i = 0; i < testdata.m.length; i++) 
+		{
+			assertEquals(testdata.o[i],p.suma(testdata.m[i], testdata.n[i]));
+			
+		}
+	}
+	@Test
+	public void testByte() 
+	{
+		for (int i = 0; i < testdata.p.length; i++) 
+		{
+			assertEquals(testdata.r[i],p.suma(testdata.p[i], testdata.q[i]));
+			
+		}
+	}
+	@Test
+	public void testShort() 
+	{
+		for (int i = 0; i < testdata.s.length; i++) 
+		{
+			assertEquals(testdata.u[i],p.suma(testdata.s[i], testdata.t[i]));
+			
+		}
 	}
 }

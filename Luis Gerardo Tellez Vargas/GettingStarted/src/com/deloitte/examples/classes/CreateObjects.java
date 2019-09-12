@@ -11,8 +11,8 @@ public class CreateObjects {
 		nombre="Albano";
 		System.out.println(nombre);
 		String nombre2= new String ("Albano");
-		/*
-		if(charValue == 'a') {
+		
+		if(nombre2 == "Albano") {
 			System.out.println("Soy Albano");
 		}
 		else {
@@ -25,7 +25,7 @@ public class CreateObjects {
 				System.out.println(i);
 			}
 		}
-		*/
+		
 		
 		char i=65;
 		/*
