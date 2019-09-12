@@ -65,18 +65,46 @@ public class Keyboards {
 		{op1, 	op1, 	op1, 	op1, 	op2, 	op2, 	op2, 	op2, 	op2, 	op2}
 	};
 	
-//	public static boolean CheckKeyboards(String email, String Password) {
-//		boolean r=false;
-//		char c;
-//		c=email.charAt(0);
-//		for (int i = 0; i < email.length(); i++) {
-//			for (int j = 0; j < 7; j++) {
-//				for (int k = 0; k < 10; k++) {
-//					
-//				}
-//			}
-//		}
-//		return r;
-//	}
+	public static boolean CheckKeyboards(String email, String password) {
+		boolean r=false;
+		char c;
+		int k;
+		String aux="";
+		for (int i = 0; i < email.length(); i++) {
+			c=email.charAt(0);
+			aux+=c;
+			for (int j = 0; j < 7; j++) {
+				for (k = 0; k < 10; k++) {
+					if(DefaultEmailKB[j][k].contentEquals(aux) || SpecialEmailKB[j][k].contentEquals(aux)) {
+						r=true;
+						break;
+					}
+					else r=false;
+				}
+				if(DefaultEmailKB[j][k].contentEquals(aux) || SpecialEmailKB[j][k].contentEquals(aux)) break;
+			}
+			aux=email.substring(1);
+			email=aux;
+			aux="";
+		}
+		for (int i = 0; i < password.length(); i++) {
+			c=password.charAt(0);
+			aux+=c;
+			for (int j = 0; j < 7; j++) {
+				for (k = 0; k < 10; k++) {
+					if(DefaultPasswordKB[j][k].contentEquals(aux) || SpecialPasswordKB[j][k].contentEquals(aux)) {
+						r=true;
+						break;
+					}
+					else r=false;
+				}
+				if(DefaultPasswordKB[j][k].contentEquals(aux) || SpecialPasswordKB[j][k].contentEquals(aux)) break;
+			}
+			aux=email.substring(1);
+			email=aux;
+			aux="";
+		}
+		return r;
+	}
 
 }

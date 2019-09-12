@@ -13,10 +13,15 @@ public class Main {
 	
 
 	public static void main(String[] args) {
-		Keyboards.CheckKeyboards(EMAIL, PASSWORD);
-		res=DefaultEmailKB.KBNavigation(EMAIL, res);
-		res=DefaultPasswordKB.KBNavigation(PASSWORD, res);
-		System.out.println(res);
+		if(Keyboards.CheckKeyboards(EMAIL, PASSWORD)) {
+			res=DefaultEmailKB.KBNavigation(EMAIL, res);
+			res=DefaultPasswordKB.KBNavigation(PASSWORD, res);
+			System.out.println(res);
+		}else {
+			System.out.println("Error en la entrada de correo y/o password");
+		}
+		
+		
 	}
 
 }
