@@ -14,6 +14,7 @@ Four type of keyboards
     - Email Special Characters keyboard
     - Password default keyboard
     - Password Special Characters keyboard
+Initial key is letter 'g'
 Output: The output should be a String with ALL the movements over the keyboard(s) (comma separated) 
 i.e ( "left_arrow, left_arrow, left_arrow, left_arrow, up_arrow, down_arrow, right_arrow, select" )
 
