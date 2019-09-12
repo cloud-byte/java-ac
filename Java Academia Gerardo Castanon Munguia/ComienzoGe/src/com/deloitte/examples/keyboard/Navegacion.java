@@ -53,7 +53,7 @@ public static void movimiento(int x,int y, int nx,int ny) {
 		}
 		if (y>ny) {
 			int pasos = (ny-y)*-1;
-			System.out.println(pasos+" pasos hacia arriba.");
+			System.out.println(pasos+" pasos hacifa arriba.");
 		}
 		
 }
